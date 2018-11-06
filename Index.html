@@ -1,101 +1,108 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-      <script src="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/script.js"></script>
-      <link rel="stylesheet" type="text/css" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/style.css">       <script src="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/script.js"></script>
-      <meta charset="UTF-8"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Aprender web</title>
-      <script>
-
-
+ <head>
+ <script src="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/script.js"></script>
+ <link rel="stylesheet" type="text/css" href="inicio.css"> 
+ <script src="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/script.js"></script>
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>MiWeb</title>
+ <script>
 function myFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-
-}
-          
-          var hiddenThingie; 
-  
+ var input, filter, ul, li, a, i;
+ input = document.getElementById("myInput");
+ filter = input.value.toUpperCase();
+ ul = document.getElementById("myUL");
+ li = ul.getElementsByTagName("li");
+ for (i = 0; i < li.length; i++) {
+ a = li[i].getElementsByTagName("a")[0];
+ if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+ li[i].style.display = "";
+ } else {
+ li[i].style.display = "none";
+ }
+ }
+ 
+ var hiddenThingie; 
+ 
 function focusFunction(x) {
-    hiddenThingie.style.visibility="visible";
+ hiddenThingie.style.visibility="visible";
 }
 function blurFunction(x) {
-
-    hiddenThingie.style.visibility="hidden";
+ hiddenThingie.style.visibility="hidden";
 }
-  
+ 
 window.onload = function() {
-    hiddenThingie = document.getElementById("myUL");
-    hiddenThingie.style.visibility="hidden";
+ hiddenThingie = document.getElementById("myUL");
+ hiddenThingie.style.visibility="hidden";
 }
+}
+ 
 </script>
-      <style>
-
+ <style>
 #myUL li a:hover:not(.header) {
-  background-color: #eee;
+ background-color: #eee;
 }
 </style>
-  </head>
-  
-           
-    <header><a class="botonmenu" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/Index.html">Casa</a>
-            <a class="botonmenu" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/Index2.html">Dibujos</a>
-         <a class="botonmenu" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/Index2.html">Info</a>
-        <input id="myInput" type="text" placeholder="Busca aquí" onkeyup="myFunction()" onfocus="focusFunction(this)" onblur="blurFunction(this)">
-       
-        <div class="didvmenu">
-        <ul class="nav">
-            <li><a href="">Perfil</a>
-                <ul>
-                    
-                    <li class="nav-"><a href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/iniciosesion.html"> Iniciar Sesión<br>/Registrate</a></li>
-                    <li><a href="nav-">Perfil</a></li>
-                </ul>    
-            </li> 
-        </ul>
-    </div>  
-     
-    </header>   
-    
-   <body>  
-        
+ </head>
+ 
+ 
+ <header><a class="botonmenu" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/Index.html">Casa</a>
+ <a class="botonmenu" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/Index2.html">Dibujos</a>
+ <a class="botonmenu" href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/Index2.html">Info</a>
+ <input id="myInput" type="text" placeholder="Busca aquí" onkeyup="myFunction()" onfocus="focusFunction(this)" onblur="blurFunction(this)">
+ 
+ <div class="didvmenu">
+ <ul class="nav">
+ <li><a href="">Perfil</a>
+ <ul>
+ 
+ <li class="nav-"><a href="externalfile:drive-53f644dc02565b4a78599059501b7b4ef237f71f/root/Web1/iniciosesion.html"> Iniciar Sesión<br>/Registrate</a></li>
+ <li><a href="nav-">Perfil</a></li>
+ </ul> 
+ </li> 
+ </ul>
+ </div> 
+ 
+ </header> 
+ 
+ <body> 
+ 
 
 
 
 <ul id="myUL">
-  <li><a href="#">Música</a></li>
-  <li><a href="#">Fortnite</a></li>
+ <li><a href="https://asempere123123.github.io/web-real/youtube.html#">youtube</a></li>
+ <li><a href="#">bubu</a></li>
 
-  <li><a href="#">Comida</a></li>
-  <li><a href="#">Life Hacks</a></li>
+ <li><a href="#">Comida</a></li>
+ <li><a href="#">Life Hacks</a></li>
 
-  <li><a href="#">Memes</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-</ul>
+ <li><a href="memes.html#">Memes</a></li>
+ <li><a href="#">Christina</a></li>
+ <li><a href="#">Cindy</a></li> <li><a href="#">Música</a></li>
+ <li><a href="#">Fortnite</a></li>
+ 
+ <li><a href="memes.html#">Memes</a></li>
+ <li><a href="#">Christina</a></li>
+ <li><a href="#">Cindy</a></li> <li><a href="#">Música</a></li>
+ <li><a href="#">Fortnite</a></li>
+ <li><a href="memes.html#">Memes</a></li>
+ <li><a href="#">Christina</a></li>
+ <li><a href="#">Cindy</a></li> <li><a href="#">Música</a></li>
+ <li><a href="#">Fortnite</a></li>
+ <li><a href="memes.html">Memes</a></li>
+ <li><a href="#">Christina</a></li>
+ <li><a href="#">Cindy</a></li> <li><a href="#">Música</a></li>
+ <li><a href="#">Fortnite</a></li>
+ <li><a href="memes.html#">Memes</a></li>
+ <li><a href="#">Christina</a></li>
+ <li><a href="#">Cindy</a></li> <li><a href="#">Música</a></li>
+ <li><a href="#">Fortnite</a></li>
+ </ul>
+ 
 
 
-        </body>  
-    
-
-
-        
-      
-    
-   
-        
-        
-   
+ </body> 
+ 
 </html>
